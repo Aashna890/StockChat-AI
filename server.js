@@ -85,7 +85,7 @@ async function yfFetch(url, retries = 3) {
 }
 
 // ── Gemini helper ─────────────────────────────────────────────────────────────
-const GEMINI_MODEL = 'gemini-2.5-flash';
+const GEMINI_MODEL = 'gemini-3.1-flash-lite';
 const GEMINI_URL   = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
 function buildSystemPrompt() {
